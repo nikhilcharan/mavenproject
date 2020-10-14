@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Git Checkout') { 
             steps {
-                    git credentialsId: 'nikhilcharan', url: 'https://github.com/nikhilcharan/devopstraining.git'
+                    git credentialsId: 'nikhilcharan', url: 'https://github.com/nikhilcharan/maventestproject.git'
                   }
         }  
         stage('Build') {
