@@ -11,6 +11,12 @@ pipeline {
             }
         }  
         
+        stage('read pom') { 
+            steps {
+                readpom = readMavenPom file: '' ;
+            }
+        }  
+        
         stage('Build') {
              steps {
                    sh 'mvn clean install'
