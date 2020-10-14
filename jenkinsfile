@@ -1,7 +1,7 @@
 pipeline {
     agent any 
     stages {
-        stage('Checkout') { 
+        stage('Git Checkout') { 
             steps {
                 git credentialsId: 'nikhilcharan', url: 'https://github.com/nikhilcharan/devopstraining.git'
             }
