@@ -27,9 +27,6 @@
 	</properties>
 
 	
-	mvn sonar:sonar \
-  -Dsonar.projectKey=helloworld_nikhil \
-  -Dsonar.host.url=http://localhost:9000 \
-  -Dsonar.login=jenkins
+
 
 </project> 
